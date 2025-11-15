@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional CCTV installation, network setup, device repair, and web development services. Fast, reliable tech solutions for homes and businesses.">
+    <title>TechPro Solutions — CCTV • Network • Repair • Websites (Your City)</title>
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="TechPro Solutions — Professional Tech Services">
+    <meta property="og:description"
+        content="CCTV installation, network setup, device repair, and web development services. Fast, reliable tech solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+    <!-- Preload Critical CSS -->
+    <link rel="preload" href="css/styles.css" as="style">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "TechPro Solutions",
+        "image": "https://yourwebsite.com/assets/images/logo.png",
+        "description": "Professional CCTV installation, network setup, device repair, and web development services.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Tech Street",
+            "addressLocality": "Your City",
+            "addressRegion": "Your Region",
+            "postalCode": "12345",
+            "addressCountry": "Your Country"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "00.000000",
+            "longitude": "00.000000"
+        },
+        "url": "https://yourwebsite.com",
+        "telephone": "+250791869070",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "09:00",
+                "closes": "18:00"
+            }
+        ],
+        "priceRange": "$$",
+        "sameAs": [
+            "https://facebook.com/yourprofile",
+            "https://linkedin.com/in/yourprofile"
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">TechPro<span>Solutions</span></a>
+
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+
+                <nav id="primary-navigation" class="primary-navigation">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                        <li class="nav-item"><a href="tel:+250791869070" class="nav-phone"><i class="fas fa-phone-alt"></i> +250 791 869 070</a></li>
+                        <li class="nav-item">
+                            <a href="https://wa.me/250791869070?text=Hello%20Mwizerwa!%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                                class="nav-whatsapp" target="_blank" rel="noopener noreferrer"
+                                aria-label="Chat on WhatsApp">
+                                <span>Fast on WhatsApp</span>
+                            </a>
+                        </li>
+                        <li class="nav-item"><a href="#contact" class="nav-link cta-button">Get a Quote</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-slider">
+                <!-- Slide 1 - Preload this one -->
+                <div class="hero-slide active" style="background-image: url('assets/images/CCTV.webp');">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h1>Professional CCTV Installation</h1>
+                            <p class="hero-subtitle">High-quality security camera installation with remote monitoring
+                                capabilities. Keep your property safe 24/7.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 - Lazy load these -->
+                <div class="hero-slide" data-bg="assets/images/network.webp">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h1>Network Setup & Security</h1>
+                            <p class="hero-subtitle">Reliable wired and wireless network solutions for homes and
+                                businesses. Fast, secure, and scalable.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="hero-slide" data-bg="assets/images/repair.jpg">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h1>Device Repair Services</h1>
+                            <p class="hero-subtitle">Fast and reliable repair services for all your electronic devices.
+                                We fix laptops, phones, and more.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single CTA Button -->
+                <div class="hero-cta-container">
+                    <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+                </div>
+
+                <!-- Add more slides as needed -->
+
+                <!-- Slider Navigation -->
+                <div class="slider-nav">
+                    <button class="slider-prev" aria-label="Previous slide">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="slider-dots">
+                        <!-- Dots will be added by JavaScript -->
+                    </div>
+                    <button class="slider-next" aria-label="Next slide">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What We Offer</span>
+                    <h2>Our Services</h2>
+                    <p class="section-description">Comprehensive tech solutions tailored to your needs</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/cctv.svg" alt="CCTV Installation" width="48" height="48">
+                        </div>
+                        <h3>CCTV Installation</h3>
+                        <p>Expert camera placement, cable routing, and DVR/NVR setup with remote viewing capabilities.
+                        </p>
+                        <ul class="service-features">
+                            <li>✓ Camera placement & configuration</li>
+                            <li>✓ Cable management</li>
+                            <li>✓ Remote viewing setup</li>
+                            <li>✓ 6-month warranty</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Get a Quote</a>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/network.svg" alt="Network Installation" width="48" height="48">
+                        </div>
+                        <h3>Network Setup</h3>
+                        <p>Reliable wired and wireless network solutions for homes and small businesses.</p>
+                        <ul class="service-features">
+                            <li>✓ Router configuration</li>
+                            <li>✓ Wired & wireless setup</li>
+                            <li>✓ Network security</li>
+                            <li>✓ Performance optimization</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Get a Quote</a>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/repair.svg" alt="Device Repair" width="48" height="48">
+                        </div>
+                        <h3>Device Repair</h3>
+                        <p>Fast and reliable repair services for laptops, phones, and other electronic devices.</p>
+                        <ul class="service-features">
+                            <li>✓ Screen replacement</li>
+                            <li>✓ Battery replacement</li>
+                            <li>✓ Data recovery</li>
+                            <li>✓ Water damage</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Get a Quote</a>
+                    </article>
+
+                    <!-- Service 4 -->
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/website.svg" alt="Website Creation" width="48" height="48">
+                        </div>
+                        <h3>Website Creation</h3>
+                        <p>Modern, responsive websites that convert visitors into customers.</p>
+                        <ul class="service-features">
+                            <li>✓ Responsive design</li>
+                            <li>✓ SEO optimization</li>
+                            <li>✓ Fast loading</li>
+                            <li>✓ Mobile-friendly</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Get a Quote</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="section-header">
+                        <span class="section-subtitle">Why Choose Us</span>
+                        <h2>Expertise You Can Trust</h2>
+                        <p class="section-description">Delivering exceptional service with attention to detail</p>
+                    </div>
+
+                    <div class="features-grid">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="assets/icons/clock.svg" alt="Fast Response" width="40" height="40">
+                            </div>
+                            <h3>Fast Response</h3>
+                            <p>We understand urgency. Most service calls are addressed within 24 hours.</p>
+                        </div>
+
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="assets/icons/shield.svg" alt="Security First" width="40" height="40">
+                            </div>
+                            <h3>Security First</h3>
+                            <p>We prioritize your safety with secure installations and data protection.</p>
+                        </div>
+
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="assets/icons/medal.svg" alt="Quality Work" width="40" height="40">
+                            </div>
+                            <h3>Quality Work</h3>
+                            <p>Professional installations with attention to detail and clean cable management.</p>
+                        </div>
+
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="assets/icons/warranty.svg" alt="Warranty" width="40" height="40">
+                            </div>
+                            <h3>6-Month Warranty</h3>
+                            <p>Peace of mind with our workmanship warranty on all services.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <img src="assets/images/repair.jpg" alt="Professional technician at work" loading="lazy">
+                    <div class="experience-badge">
+                        <span class="years">2+</span>
+                        <span>Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="section portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Our Work</span>
+                    <h2>Recent Projects</h2>
+                    <p class="section-description">See how we've helped businesses and homeowners with their tech needs
+                    </p>
+                </div>
+
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="cctv">CCTV</button>
+                    <button class="filter-btn" data-filter="network">Network</button>
+                    <button class="filter-btn" data-filter="repair">Repair</button>
+                    <button class="filter-btn" data-filter="website">Websites</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- Portfolio items will be dynamically loaded here -->
+                </div>
+
+                <div class="text-center">
+                    <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="section process" id="process">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">How It Works</span>
+                    <h2>Our Simple Process</h2>
+                    <p class="section-description">Getting started is easy with our streamlined workflow</p>
+                </div>
+
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3>Consultation</h3>
+                        <p>We discuss your needs and provide a free, no-obligation quote.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3>Planning</h3>
+                        <p>We create a customized solution tailored to your requirements.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3>Installation</h3>
+                        <p>Our experts handle the setup with minimal disruption to you.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h3>Support</h3>
+                        <p>We provide ongoing support and maintenance as needed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Happy Clients</span>
+                    <h2>What Our Clients Say</h2>
+                    <p class="section-description">Don't just take our word for it</p>
+                </div>
+
+                <div class="testimonials-slider">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                ★★★★★
+                            </div>
+                            <p>"The team did an amazing job installing our CCTV system. The cameras are well-placed and
+                                the app is easy to use. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="assets/images/sarah.jpg" alt="Sarah Johnson" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <span>Homeowner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trusted-by">
+                    <p>Trusted by local businesses including:</p>
+                    <div class="client-logos">
+                        <img src="assets/images/ikigugu.png" alt="Ikigugu group ltd" loading="lazy">
+                        <img src="assets/images/kiin.png" alt="Kiin innovation" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="section-header">
+                        <span class="section-subtitle">Get In Touch</span>
+                        <h2>Request a Free Quote</h2>
+                        <p class="section-description">Fill out the form and we'll get back to you within 24 hours</p>
+                    </div>
+
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message"></div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="error-message"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <div class="error-message"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="cctv">CCTV Installation</option>
+                                <option value="network">Network Setup</option>
+                                <option value="repair">Device Repair</option>
+                                <option value="website">Website Creation</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="error-message"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+
+                        <div class="form-group file-upload">
+                            <label for="attachment">Attach Files (Optional)</label>
+                            <input type="file" id="attachment" name="attachment" multiple>
+                            <div class="file-upload-area">
+                                <span>Drag & drop files here or click to browse</span>
+                            </div>
+                            <div id="file-list" class="file-list"></div>
+                        </div>
+
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <p class="form-note">We'll get back to you within 24 hours</p>
+                        </div>
+                    </form>
+
+                    <div id="form-success" class="form-success-message" style="display: none;">
+                        <div class="success-icon">✓</div>
+                        <h3>Thank you for your message!</h3>
+                        <p>We've received your inquiry and will get back to you within 24 hours.</p>
+                        <button id="send-another" class="btn btn-outline">Send another message</button>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <img src="assets/icons/phone.svg" alt="Phone" width="24" height="24">
+                        </div>
+                        <h3>Call Us</h3>
+                        <p><a href="tel:+250791869070">+250 791 869 070</a></p>
+                        <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <img src="assets/icons/email.svg" alt="Email" width="24" height="24">
+                        </div>
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:gethelpanswer@gmail.com">gethelpanswer@gmail.com</a></p>
+                        <p>Response within 24 hours</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <img src="assets/icons/location.svg" alt="Location" width="24" height="24">
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>123 Tech Street</p>
+                        <p>Your City, ST 12345</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <img src="assets/icons/facebook.svg" alt="Facebook" width="24" height="24">
+                        </a>
+                        <a href="#" aria-label="X">
+                            <img src="assets/icons/x.svg" alt="x" width="24" height="24">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="assets/icons/instagram.svg" alt="Instagram" width="24" height="24">
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="assets/icons/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                        </a>
+                        <a href="#" aria-label="WhatsApp">
+                            <img src="assets/icons/whatsapp.svg" alt="WhatsApp" width="24" height="24">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-text">TechPro</span>
+                        <span class="logo-highlight">Solutions</span>
+                    </div>
+                    <p>Professional tech services for homes and businesses. Fast, reliable, and secure solutions you can
+                        trust.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">
+                            <img src="assets/icons/facebook.svg" alt="Facebook" width="20" height="20">
+                        </a>
+                        <a href="#" aria-label="x">
+                            <img src="assets/icons/x.svg" alt="x" width="20" height="20">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="assets/icons/instagram.svg" alt="Instagram" width="20" height="20">
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="assets/icons/linkedin.svg" alt="LinkedIn" width="20" height="20">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#services">CCTV Installation</a></li>
+                        <li><a href="#services">Network Setup</a></li>
+                        <li><a href="#services">Device Repair</a></li>
+                        <li><a href="#services">Website Creation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>
+                            <img src="assets/icons/map-pin.svg" alt="Address" width="16" height="16">
+                            <span>123 Tech Street, Your City, ST 12345</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/phone.svg" alt="Phone" width="16" height="16">
+                            <a href="tel:+250791869070">+250 791 869 070</a>
+                        </li>
+                        <li>
+                            <img src="assets/icons/mail.svg" alt="Email" width="16" height="16">
+                            <a href="mailto:gethelpanswer@gmail.com">gethelpanswer@gmail.com</a>
+                        </li>
+                        <li>
+                            <img src="assets/icons/clock.svg" alt="Hours" width="16" height="16">
+                            <span>Mon-Fri: 9:00 AM - 6:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> TechPro Solutions. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms of Service</a>
+                    <span>|</span>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="js/main.js" defer></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "TechPro Solutions",
+        "image": "https://yourwebsite.com/assets/images/logo.png",
+        "description": "Professional CCTV installation, network setup, device repair, and web development services.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Tech Street",
+            "addressLocality": "Your City",
+            "addressRegion": "Your Region",
+            "postalCode": "12345",
+            "addressCountry": "Your Country"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "00.000000",
+            "longitude": "00.000000"
+        },
+        "telephone": "+250791869070",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "09:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "10:00",
+                "closes": "16:00"
+            }
+        ],
+        "priceRange": "$$",
+        "sameAs": [
+            "https://facebook.com/yourpage",
+            "https://x.com/yourhandle",
+            "https://linkedin.com/company/yourcompany"
+        ]
+    }
+    </script>
+    <script src="js/hero-slider.js"></script>
+</body>
+
+</html>
