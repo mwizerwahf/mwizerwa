@@ -1,10 +1,10 @@
-# TechPro Solutions - Professional Technology Services
+# MwizerwaSys Solutions - Professional Technology Services
 
-![TechPro Solutions Logo](assets/icons/logo.svg)
+![MwizerwaSys Solutions Logo](assets/icons/logo.svg)
 
 ## Overview
 
-TechPro Solutions is a professional technology services company specializing in comprehensive tech solutions for both residential and business clients. Our services include CCTV installation, network setup, device repair, and website development.
+MwizerwaSys Solutions is a professional technology services company specializing in comprehensive tech solutions for both residential and business clients. Our services include CCTV installation, network setup, device repair, and website development.
 
 ## Features
 
@@ -62,7 +62,7 @@ TechPro Solutions is a professional technology services company specializing in 
 ## File Structure
 
 ```
-techpro-solutions/
+MwizerwaSys-solutions/
 ├── assets/
 │   ├── css/
 │   │   └── styles.css
